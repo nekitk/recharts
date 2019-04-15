@@ -114,6 +114,7 @@ export const PRESENTATION_ATTRIBUTES = {
     'visiblePainted', 'visibleFill', 'visibleStroke', 'visible', 'painted',
     'fill', 'stroke', 'all', 'none', 'inherit',
   ]),
+  preserveAspectRatio: PropTypes.string,
   shapeRendering: PropTypes.oneOf([
     'auto', 'optimizeSpeed', 'crispEdges', 'geometricPrecision', 'inherit',
   ]),
